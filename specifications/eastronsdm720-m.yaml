@@ -811,29 +811,29 @@ version: "0.3"
 testdata:
   analogInputs:
     - address: 0
-      value: 17254
+      value: 17252
     - address: 1
-      value: 10976
+      value: 51515
     - address: 200
-      value: 17351
+      value: 17350
     - address: 201
-      value: 21302
+      value: 8436
     - address: 202
-      value: 17352
+      value: 17351
     - address: 203
-      value: 40636
+      value: 17387
     - address: 204
-      value: 17352
+      value: 17350
     - address: 205
-      value: 11824
+      value: 24174
     - address: 206
-      value: 17352
+      value: 17350
     - address: 207
-      value: 2742
+      value: 38511
     - address: 42
-      value: 17254
+      value: 17253
     - address: 43
-      value: 65221
+      value: 20708
     - address: 8
       value: 0
     - address: 9
@@ -927,37 +927,37 @@ testdata:
     - address: 71
       value: 49807
     - address: 72
-      value: 17435
+      value: 17436
     - address: 73
-      value: 10945
+      value: 51528
     - address: 74
       value: 0
     - address: 75
       value: 0
     - address: 342
-      value: 17435
+      value: 17436
     - address: 343
-      value: 10945
+      value: 51528
     - address: 344
-      value: 17356
+      value: 17358
     - address: 345
-      value: 21856
+      value: 23429
     - address: 384
-      value: 17435
+      value: 17436
     - address: 385
-      value: 10945
+      value: 51528
     - address: 386
-      value: 17356
+      value: 17358
     - address: 387
-      value: 21856
+      value: 23429
     - address: 388
-      value: 17435
+      value: 17436
     - address: 389
-      value: 10945
+      value: 51528
     - address: 386
-      value: 17356
+      value: 17358
     - address: 387
-      value: 21856
+      value: 23429
     - address: 1280
       value: 0
     - address: 1281
@@ -966,3 +966,4 @@ testdata:
       value: 32768
     - address: 1283
       value: 0
+pullNumber: 2
