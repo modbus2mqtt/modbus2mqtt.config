@@ -1,0 +1,8 @@
+version: "0.1"
+files:
+  - url: specifications/files/_new/Janitza_MID-Energiezaehler_B24_Left.png
+    fileLocation: 0
+    usage: img
+  - url: https://www.janitza.de/files/download/manuals/current/B-Series/janitza-bhb-b2x-de.pdf
+    fileLocation: 1
+    usage: doc
