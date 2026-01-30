@@ -1,0 +1,681 @@
+entities:
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19000
+    id: 2
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19002
+    id: 3
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19004
+    id: 4
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19012
+    id: 5
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: current
+      state_class: 1
+      uom: A
+    valid: true
+    mqttname: currentl1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19014
+    id: 6
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: current
+      state_class: 1
+      uom: A
+    valid: true
+    mqttname: currentl2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19016
+    id: 7
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: current
+      state_class: 1
+      uom: A
+    valid: true
+    mqttname: currentl3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19020
+    id: 8
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power
+      state_class: 1
+      uom: W
+    valid: true
+    mqttname: powerl1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19022
+    id: 9
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power
+      state_class: 1
+      uom: W
+    valid: true
+    mqttname: powerl2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19024
+    id: 10
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power
+      state_class: 1
+      uom: W
+    valid: true
+    mqttname: powerl3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19026
+    id: 11
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power
+      state_class: 1
+      uom: W
+    valid: true
+    mqttname: power
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19062
+    id: 12
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: importl1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19064
+    id: 13
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: importl2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19066
+    id: 14
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: importl3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19068
+    id: 15
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: import
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19070
+    id: 16
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: exportl1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19072
+    id: 17
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: exportl2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19074
+    id: 18
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: exportl3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19076
+    id: 19
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: energy
+      state_class: 2
+      uom: Wh
+    valid: true
+    mqttname: export
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19044
+    id: 20
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power_factor
+      state_class: 1
+      uom: "%³"
+    valid: true
+    mqttname: cosphil1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19046
+    id: 21
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power_factor
+      state_class: 1
+      uom: "%³"
+    valid: true
+    mqttname: cosphil2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19048
+    id: 22
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: power_factor
+      uom: "%³"
+    valid: true
+    mqttname: cosphil3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19050
+    id: 23
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: frequency
+      state_class: 1
+      uom: Hz
+    valid: true
+    mqttname: frequency
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19006
+    id: 24
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel1l2
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19008
+    id: 25
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel2l3
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 19010
+    id: 26
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 2
+      numberFormat: 1
+      swapWords: false
+      swapBytes: false
+      device_class: voltage
+      state_class: 1
+      uom: V
+    valid: true
+    mqttname: voltagel3l1
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 35375
+    id: 27
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: 0
+      numberFormat: 0
+      swapWords: false
+      swapBytes: false
+      device_class: None
+      state_class: 2
+    valid: true
+    mqttname: powerfailcounter
+  - registerType: 3
+    readonly: true
+    converter: number
+    modbusAddress: 35072
+    id: 28
+    converterParameters:
+      multiplier: 1
+      offset: 0
+      decimals: -1
+      numberFormat: 3
+      swapWords: false
+      swapBytes: false
+      device_class: None
+    valid: true
+    mqttname: typedesignation
+    variableConfiguration:
+      targetParameter: 5
+  - registerType: 3
+    readonly: true
+    converter: text
+    modbusAddress: 35080
+    id: 29
+    converterParameters:
+      stringlength: 16
+      identification: ""
+      swapBytes: false
+    valid: true
+    variableConfiguration:
+      targetParameter: 6
+  - registerType: 3
+    readonly: true
+    converter: text
+    modbusAddress: 35168
+    id: 30
+    converterParameters:
+      stringlength: 12
+      identification: null
+      swapBytes: false
+    valid: true
+    mqttname: typedesgination
+    variableConfiguration:
+      targetParameter: 1
+i18n:
+  - lang: en
+    texts:
+      - textId: name
+        text: Janitza B23 312 10J
+      - textId: e3
+        text: Voltage L2
+      - textId: e4
+        text: Voltage L3
+      - textId: e5
+        text: Current L1
+      - textId: e6
+        text: Current L2
+      - textId: e7
+        text: Current L3
+      - textId: e8
+        text: Power L1
+      - textId: e9
+        text: Power L2
+      - textId: e10
+        text: Power L3
+      - textId: e11
+        text: Power
+      - textId: e12
+        text: Import L1
+      - textId: e13
+        text: Import L2
+      - textId: e14
+        text: Import L3
+      - textId: e15
+        text: Import
+      - textId: e16
+        text: Export L1
+      - textId: e17
+        text: Export L2
+      - textId: e18
+        text: Export L3
+      - textId: e20
+        text: CosPhi L1
+      - textId: e21
+        text: CosPhi L2
+      - textId: e22
+        text: CosPhi L3
+      - textId: e23
+        text: Frequency
+      - textId: e19
+        text: Export
+      - textId: e2
+        text: Voltage L1
+      - textId: e27
+        text: Power Fail Counter
+      - textId: e24
+        text: Voltage L1L2
+      - textId: e25
+        text: Voltage L2L3
+      - textId: e26
+        text: Voltage L3L1
+filename: janitzab23312j10
+model: B23 312 10J
+manufacturer: Janitza
+nextEntityId: 31
+version: "0.4"
+testdata:
+  holdingRegisters:
+    - address: 19000
+      value: 17244
+    - address: 19001
+      value: 4130
+    - address: 19002
+      value: 17245
+    - address: 19003
+      value: 16974
+    - address: 19004
+      value: 17244
+    - address: 19005
+      value: 62390
+    - address: 19012
+      value: 16537
+    - address: 19013
+      value: 30178
+    - address: 19014
+      value: 16388
+    - address: 19015
+      value: 23866
+    - address: 19016
+      value: 15914
+    - address: 19017
+      value: 293
+    - address: 19020
+      value: 17537
+    - address: 19021
+      value: 23473
+    - address: 19022
+      value: 17346
+    - address: 19023
+      value: 9339
+    - address: 19024
+      value: 16532
+    - address: 19025
+      value: 25586
+    - address: 19026
+      value: 17586
+    - address: 19027
+      value: 31027
+    - address: 19062
+      value: 19068
+    - address: 19063
+      value: 60275
+    - address: 19064
+      value: 19124
+    - address: 19065
+      value: 539
+    - address: 19066
+      value: 19007
+    - address: 19067
+      value: 63896
+    - address: 19068
+      value: 19262
+    - address: 19069
+      value: 37650
+    - address: 19070
+      value: 18833
+    - address: 19071
+      value: 52855
+    - address: 19072
+      value: 0
+    - address: 19073
+      value: 0
+    - address: 19074
+      value: 0
+    - address: 19075
+      value: 0
+    - address: 19076
+      value: 18674
+    - address: 19077
+      value: 20963
+    - address: 19044
+      value: 16250
+    - address: 19045
+      value: 64382
+    - address: 19046
+      value: 16218
+    - address: 19047
+      value: 34184
+    - address: 19048
+      value: 15869
+    - address: 19049
+      value: 8702
+    - address: 19050
+      value: 16968
+    - address: 19051
+      value: 0
+    - address: 19006
+      value: 17342
+    - address: 19007
+      value: 59605
+    - address: 19008
+      value: 17344
+    - address: 19009
+      value: 5506
+    - address: 19010
+      value: 17342
+    - address: 19011
+      value: 39223
+    - address: 35375
+      value: 12
+    - address: 35072
+      value: 21
+    - address: 35073
+      value: 28368
+    - address: 35080
+      value: 16945
+    - address: 35081
+      value: 11827
+    - address: 35082
+      value: 12334
+    - address: 35083
+      value: 12288
+    - address: 35084
+      value: 0
+    - address: 35085
+      value: 0
+    - address: 35086
+      value: 0
+    - address: 35087
+      value: 0
+    - address: 35168
+      value: 16946
+    - address: 35169
+      value: 13088
+    - address: 35170
+      value: 13105
+    - address: 35171
+      value: 12845
+    - address: 35172
+      value: 12592
+    - address: 35173
+      value: 18944
